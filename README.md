@@ -10,11 +10,12 @@ WhistleCounter is an Android app that listens for a pressure cooker's whistle so
 - Lightweight and efficient, optimized for mobile devices.
 
 ## 🔧 Technologies Used
-- **Kotlin/Java** for Android app development
+- **Java** for Android app development
 - **Android Jetpack** for modern UI and architecture components
-- **MediaRecorder/AudioRecord API** for audio capture
+- **AudioRecord API** for real-time audio capture
 - **Fast Fourier Transform (FFT)** for frequency-based whistle detection
-- **ML Kit (Optional)** for enhanced accuracy
+- **RingtoneManager API** for triggering built-in alarm sounds
+- **Material Design Components** for a polished UI
 
 ## 🛠 Installation
 1. **Clone the repository**
@@ -34,6 +35,7 @@ WhistleCounter is an Android app that listens for a pressure cooker's whistle so
 2. Applies a **bandpass filter** to isolate frequencies of cooker whistles (typically 1-4 kHz).
 3. Detects peaks matching whistle characteristics.
 4. Increments the whistle count and displays results on the UI.
+5. Triggers an alarm using the system's built-in sounds when the desired count is reached.
 
 ## 📸 Demo
 (Screenshot or GIF of the app detecting whistles)
