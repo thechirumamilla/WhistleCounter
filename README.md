@@ -38,7 +38,7 @@ WhistleCounter is an Android app that listens for a pressure cooker's whistle so
 5. Triggers an alarm using the system's built-in sounds when the desired count is reached.
 
 ## 📸 Demo
-(Screenshot or GIF of the app detecting whistles)
+(Screenshot or GIF of the app detecting whistles) - TBD
 
 ## 🚀 Future Enhancements
 - Improve accuracy using machine learning.
